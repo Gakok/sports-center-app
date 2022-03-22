@@ -1,0 +1,113 @@
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+[1mdiff --git a/package-lock.json b/package-lock.json[m
+[1mindex d10ced5..13e3184 100644[m
+[1m--- a/package-lock.json[m
+[1m+++ b/package-lock.json[m
+[36m@@ -13,6 +13,7 @@[m
+         "@testing-library/user-event": "^13.5.0",[m
+         "react": "^17.0.2",[m
+         "react-dom": "^17.0.2",[m
+[32m+[m[32m        "react-router-dom": "^6.2.2",[m
+         "react-scripts": "5.0.0",[m
+         "web-vitals": "^2.1.4"[m
+       }[m
+[36m@@ -7992,6 +7993,14 @@[m
+         "he": "bin/he"[m
+       }[m
+     },[m
+[32m+[m[32m    "node_modules/history": {[m
+[32m+[m[32m      "version": "5.3.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/history/-/history-5.3.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-ZqaKwjjrAYUYfLG+htGaIIZ4nioX2L70ZUMIFysS3xvBsSG4x/n1V6TXV3N8ZYNuFGlDirFg32T7B6WOUPDYcQ==",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@babel/runtime": "^7.7.6"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+     "node_modules/hoopy": {[m
+       "version": "0.1.4",[m
+       "resolved": "https://registry.npmjs.org/hoopy/-/hoopy-0.1.4.tgz",[m
+[36m@@ -13268,6 +13277,30 @@[m
+         "node": ">=0.10.0"[m
+       }[m
+     },[m
+[32m+[m[32m    "node_modules/react-router": {[m
+[32m+[m[32m      "version": "6.2.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/react-router/-/react-router-6.2.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-/MbxyLzd7Q7amp4gDOGaYvXwhEojkJD5BtExkuKmj39VEE0m3l/zipf6h2WIB2jyAO0lI6NGETh4RDcktRm4AQ==",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "history": "^5.2.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "peerDependencies": {[m
+[32m+[m[32m        "react": ">=16.8"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/react-router-dom": {[m
+[32m+[m[32m      "version": "6.2.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.2.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-AtYEsAST7bDD4dLSQHDnk/qxWLJdad5t1HFa1qJyUrCeGgEuCSw0VB/27ARbF9Fi/W5598ujvJOm3ujUCVzuYQ==",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "history": "^5.2.0",[m
+[32m+[m[32m        "react-router": "6.2.2"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "peerDependencies": {[m
+[32m+[m[32m        "react": ">=16.8",[m
+[32m+[m[32m        "react-dom": ">=16.8"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+     "node_modules/react-scripts": {[m
+       "version": "5.0.0",[m
+       "resolved": "https://registry.npmjs.org/react-scripts/-/react-scripts-5.0.0.tgz",[m
+[36m@@ -21832,6 +21865,14 @@[m
+       "resolved": "https://registry.npmjs.org/he/-/he-1.2.0.tgz",[m
+       "integrity": "sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw=="[m
+     },[m
+[32m+[m[32m    "history": {[m
+[32m+[m[32m      "version": "5.3.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/history/-/history-5.3.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-ZqaKwjjrAYUYfLG+htGaIIZ4nioX2L70ZUMIFysS3xvBsSG4x/n1V6TXV3N8ZYNuFGlDirFg32T7B6WOUPDYcQ==",[m
+[32m+[m[32m      "requires": {[m
+[32m+[m[32m        "@babel/runtime": "^7.7.6"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+     "hoopy": {[m
+       "version": "0.1.4",[m
+       "resolved": "https://registry.npmjs.org/hoopy/-/hoopy-0.1.4.tgz",[m
+[36m@@ -25506,6 +25547,23 @@[m
+       "resolved": "https://registry.npmjs.org/react-refresh/-/react-refresh-0.11.0.tgz",[m
+       "integrity": "sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A=="[m
+     },[m
+[32m+[m[32m    "react-router": {[m
+[32m+[m[32m      "version": "6.2.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/react-router/-/react-router-6.2.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-/MbxyLzd7Q7amp4gDOGaYvXwhEojkJD5BtExkuKmj39VEE0m3l/zipf6h2WIB2jyAO0lI6NGETh4RDcktRm4AQ==",[m
+[32m+[m[32m      "requires": {[m
+[32m+[m[32m        "history": "^5.2.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "react-router-dom": {[m
+[32m+[m[32m      "version": "6.2.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.2.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-AtYEsAST7bDD4dLSQHDnk/qxWLJdad5t1HFa1qJyUrCeGgEuCSw0VB/27ARbF9Fi/W5598ujvJOm3ujUCVzuYQ==",[m
+[32m+[m[32m      "requires": {[m
+[32m+[m[32m        "history": "^5.2.0",[m
+[32m+[m[32m        "react-router": "6.2.2"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+     "react-scripts": {[m
+       "version": "5.0.0",[m
+       "resolved": "https://registry.npmjs.org/react-scripts/-/react-scripts-5.0.0.tgz",[m
+[1mdiff --git a/package.json b/package.json[m
+[1mindex bfc1d0b..f65dcfe 100644[m
+[1m--- a/package.json[m
+[1m+++ b/package.json[m
+[36m@@ -8,6 +8,7 @@[m
+     "@testing-library/user-event": "^13.5.0",[m
+     "react": "^17.0.2",[m
+     "react-dom": "^17.0.2",[m
+[32m+[m[32m    "react-router-dom": "^6.2.2",[m
+     "react-scripts": "5.0.0",[m
+     "web-vitals": "^2.1.4"[m
+   },[m
