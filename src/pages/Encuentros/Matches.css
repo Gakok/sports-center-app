@@ -1,0 +1,77 @@
+h2 {
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  font-size: 40px;
+  text-shadow: -1px 5px 0px rgba(255, 60, 188, 0.43);
+}
+#titulo {
+  background-color: black;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  width: 70%;
+  border-radius: 40px 40px 40px 40px;
+}
+h4 {
+  text-decoration: underline white;
+  margin-right: 25px;
+}
+
+#log {
+  background-color: black;
+  color: white;
+}
+#log {
+  background-color: white;
+  color: black;
+}
+#logout {
+  background-color: black;
+  color: white;
+}
+#logout:hover {
+  background-color: white;
+  color: black;
+}
+
+.nav {
+  display: flex;
+  justify-content: right;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+.jornada{
+  display:inline-grid;
+
+}
+.tablaresul{
+  width: 70%;
+
+  
+}
+.equipos{
+  width: 80%;
+  border: 2px solid rgb(0, 0, 0);
+  margin-bottom: 20px;
+  background-color: white;
+
+}
+.encuentro{
+  border: 2px solid rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+}
+.left{
+  float: left;
+  margin-left: 10px;
+  
+}
+.right{
+  float: right;
+  margin-right: 10px;
+}
+.medio{
+  margin-right: 170px;
+}

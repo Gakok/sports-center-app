@@ -1,0 +1,97 @@
+body {
+  background: #80baf4;
+  background: -moz-linear-gradient(left, #80baf4 0%, #80baf4 85%, #5e61c5 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #80baf4 0%,
+    #80baf4 85%,
+    #5e61c5 100%
+  );
+  background: linear-gradient(to right, #80baf4 0%, #80baf4 85%, #5e61c5 100%);
+}
+
+h3 {
+  font-size: 30px;
+  margin-top: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.resultados {
+  display: inline-block;
+  margin-right: 50px;
+  border-radius: 20px;
+  width: 250px;
+}
+
+.clases {
+  display: inline-block;
+  margin-right: 50px;
+  border-radius: 20px;
+  width: 250px;
+}
+.alquiler {
+  display: inline-block;
+  margin-right: 50px;
+  border-radius: 20px;
+  width: 250px;
+}
+#opciones {
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 130px;
+}
+
+h4 {
+  text-decoration: underline white;
+  margin-right: 25px;
+}
+#logout {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+#logout:hover {
+  background-color: white;
+  color: black;
+}
+#log {
+  float: inline-end;
+}
+.nav {
+  display: flex;
+  justify-content: right;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .resultados {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 5px;
+  }
+  .clases {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 5px;
+  }
+  .alquiler {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 5px;
+  }
+  .resultados img {
+    height: 120px;
+  }
+  .clases img {
+    height: 100px;
+  }
+  .alquiler img {
+    height: 120px;
+  }
+  footer{
+    background-color: rgb(157, 157, 157);
+   
+  }
+ 
+}

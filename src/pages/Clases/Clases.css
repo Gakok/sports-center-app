@@ -1,0 +1,57 @@
+h2 {
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  font-size: 40px;
+  text-shadow: -1px 5px 0px rgba(255, 60, 188, 0.43);
+}
+#titulo {
+  background-color: black;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  width: 70%;
+  border-radius: 40px 40px 40px 40px;
+}
+.variedad-clases {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 85px;
+}
+.form-clases{
+  margin-bottom: 15px;
+}
+#botonins {
+  margin-top: 10px;
+}
+input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.volver {
+  float: right;
+  margin-right: 20px;
+}
+h4 {
+  text-decoration: underline white;
+  margin-right: 25px;
+}
+#logout {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+#logout:hover {
+  background-color: white;
+  color: black;
+}
+#log {
+  float: inline-end;
+}
+.nav {
+  display: flex;
+  justify-content: right;
+  background-color: black;
+  color: white;
+  align-items: center;
+}

@@ -1,0 +1,86 @@
+div.centradito {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+.container {
+  max-width: 600px;
+  width: 100%;
+  padding: 25px 30px;
+  border-radius: 5px;
+  background: white;
+ 
+}
+.container .title {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.container form.user-details {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0 12px 0;
+  justify-content: space-between;
+}
+form.user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 -20px);
+}
+.user-details .input-box .details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.user-details .input-box input:valid {
+  border-color: #80baf4;
+}
+form .gender-details .gender-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+form .button input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  background: linear-gradient(to right, #5e61c5 0%, #7499bd 85%, #e4e4e4 100%);
+  color: black;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+form .button input:hover {
+  background: linear-gradient(to right, #e4e4e4 0%, #7499bd 85%, #5e61c5 100%);
+}
+.input-box {
+  margin-bottom: 10px;
+}
+.button {
+  margin-top: 10px;
+}
+form .button button {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  background: linear-gradient(to right, #5e61c5 0%, #7499bd 85%, #e4e4e4 100%);
+  color: black;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}

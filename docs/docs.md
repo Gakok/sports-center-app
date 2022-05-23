@@ -1,4 +1,4 @@
-## Documentación del protecto
+## Documentación del proyecto
 
  - [Documentación React](https://es.reactjs.org/)
  - [Documentación Create React App](https://create-react-app.dev/)
