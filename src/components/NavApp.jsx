@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "../img/bannerimg.png";
-import Banner from "../img/banner.png";
+import Banner from "../img/bannerbueno.png";
+
 import "../index.css";
 function NavApp() {
   return (

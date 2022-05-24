@@ -9,7 +9,6 @@ import "./App.css";
 
 function App() {
   const { user, logout, loading } = useAuth();
-  console.log(user);
 
   const handleLogout = async () => {
     try {

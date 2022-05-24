@@ -85,11 +85,11 @@ function Matches() {
   const ResultadosList = resultados.map((resultado) => {
     return (
       <div key={resultado.hora+"-"+resultado.local} className="encuentro">
-        <span className="left">{resultado.local}</span>{" "}
-        <span className="medio">
-          {resultado.resultadoLocal} &nbsp;{resultado.resultadoVisitante}
-        </span>{" "}
-        <span className="right">{resultado.visitante} </span>
+       <div> {resultado.local}</div>
+       
+        <div className="res"> {resultado.resultadoLocal}</div> <div className="res"> {resultado.resultadoVisitante}</div> 
+       <div>
+       {resultado.visitante} </div>
       </div>
     );
   });

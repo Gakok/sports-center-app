@@ -13,15 +13,12 @@ function Clases() {
   const [claseSeleccionada, setClaseSeleccionada] = useState("");
 
   function inscripcionClase() {
-    console.log("Inscribirse en la clase");
     setClaseSeleccionada("");
 
-    const docRef = addDoc(collection(db, "clases"), {
+    addDoc(collection(db, "clases"), {
       clase: claseSeleccionada,
       usuario: user.email,
     });
-
-    console.log("Inscripcion Registrada", docRef);
   }
 
   function seleccionarInscripcionClase(e) {

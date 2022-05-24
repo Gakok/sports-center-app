@@ -63,21 +63,17 @@ function Alquiler() {
   function reservarPista() {
     // Escribir en Firebase
     // idInstalación, Fecha, Hora, Usuario
-    console.log("ReservarPista");
     setReservaSeleccionada("");
 
-    const docRef = addDoc(collection(db, "alquileres"), {
+    addDoc(collection(db, "alquileres"), {
       año: weekDays[diaSeleccionado].getFullYear(),
       dia: weekDays[diaSeleccionado].getDate(),
-      //numeroDia: todaynumber,
       hora: reservaSelecionada,
       instalacion: instalacionSeleccionada,
       mes: weekDays[diaSeleccionado].getMonth(),
       reservado: true,
       usuario: user.email,
     });
-
-    console.log("Reserva Registrada", docRef);
   }
 
   function seleccionarReservaPista(value) {
